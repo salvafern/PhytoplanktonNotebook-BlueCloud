@@ -9,7 +9,7 @@ channels:
   - conda-forge
 dependencies:
   #- cython>=0.28.5
-  - numpy>=1.18
+  #- numpy>=1.18
   - shapely>=1.6.4
   - geos>=3.7.2
   - pyshp>=2.1
@@ -27,6 +27,7 @@ dependencies:
 
 
   - xarray
+  - geopandas
 
   - pip
   - pip:
@@ -35,3 +36,4 @@ dependencies:
     - Pydap
     - h5netcdf
     - netCDF4
+    
