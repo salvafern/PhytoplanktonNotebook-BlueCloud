@@ -7,6 +7,7 @@ name: phytohotspot
 channels:
   - conda-forge
 dependencies:
+  - python=3.9
   - shapely>=1.6.4
   - geos>=3.7.2
   - pyshp>=2.1
